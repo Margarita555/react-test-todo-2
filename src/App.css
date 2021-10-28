@@ -1,12 +1,174 @@
-.App {
+/* ============================================================ */
+/* :root {
+  --main-font: "Roboto", sans serif;
+  --accent-color: rgb(102, 238, 238);
+} */
+
+/* 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.App-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-info-wrapper {
+  background-color: rgb(212, 208, 208);
+  padding: 10px;
+}
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+.App-link {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.main {
+  /* position: relative; */
+/* padding-left: 40px;
+  padding-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.secondtitle {
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: rgb(54, 228, 228);
+  border-bottom: 3px solid var(--accent-color);
+}
+
+.thirdtitle {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 32px;
+  color: rgb(54, 228, 228);
+}  */
+
+/* .myskills {
+  color: var(--accent-color);
+  display: flex;
+  justify-content: space-between;
+}
+.profskills {
+  align-items: flex-start;
+  display: flex;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.profskillsLink {
+  background-color: var(--accent-color);
+  border-radius: 5px;
+  padding: 8px 30px;
+  margin-right: 10px;
+}
+
+.lang {
+  margin-bottom: 5px;
+}
+
+.circle-box {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid var(--accent-color);
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  margin-right: 8px;
+}
+
+.dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(212, 208, 208);
+  width: 19px;
+  height: 19px;
+  border-radius: 50px;
+}
+
+.active {
+  color: brown;
+} */
+/* ===================================================== */
+
+/* .imgPageTwo {
+  width: 300px;
+} */
+/* .App {
   text-align: center;
+} */
+
+/* .App-wrapper {
+  width: 1200px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-areas:
+    "photo header"
+    "info profile"
+    "skills languages";
+
+  grid-template-rows: 300px 1fr;
+  grid-template-columns: 2fr 10fr;
+  
 }
 
-.App-logo {
-  height: 40vmin;
+.App-header {
+  grid-area: header;
+  background-color: aquamarine;
+}
+
+.App-info {
+  grid-area: info;
+  background-color: rgb(173, 235, 214);
+}
+
+.App-profile {
+  grid-area: content;
+  background-color: rgb(204, 245, 231);
+}
+
+.App-photo {
+  grid-area: photo;
+} */
+
+/* .App-logo {
+  height: 40px;
   pointer-events: none;
-}
-
+} */
+/*
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +197,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
