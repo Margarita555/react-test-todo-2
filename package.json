@@ -22,8 +22,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "fake-json": "npx json-server ./src/assets/db.json --watch -p 3004",
-    "dev": "concurrently --kill-others \"npm run start\" \"npm run fake-json\"",
+    "server": "react-scripts server.js",
+    "json-server": "npx json-server ./src/assets/db.json --watch -p 3004",
+    "dev": "concurrently --kill-others \"npm run start\" \"npm run json-server\"",
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
