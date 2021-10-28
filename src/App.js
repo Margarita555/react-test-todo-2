@@ -20,11 +20,11 @@ function App() {
   
   useEffect(() => {
     axios.get('http://localhost:3004/lists?_expand=color&_embed=tasks').then(({ data }) => {
-      // console.log(data);
+    
       setLists(data)
     });
     axios.get('http://localhost:3004/colors').then(({ data }) => {
-      // console.log(data);
+     
       setColors(data)
     });
   }, []);
