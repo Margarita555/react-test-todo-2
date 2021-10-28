@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Margarita555/react-test-todo-2.git/static/css/main.ca65553a.chunk.css",
+    "main.js": "/Margarita555/react-test-todo-2.git/static/js/main.dbfb4e87.chunk.js",
+    "main.js.map": "/Margarita555/react-test-todo-2.git/static/js/main.dbfb4e87.chunk.js.map",
+    "runtime-main.js": "/Margarita555/react-test-todo-2.git/static/js/runtime-main.3958c069.js",
+    "runtime-main.js.map": "/Margarita555/react-test-todo-2.git/static/js/runtime-main.3958c069.js.map",
+    "static/js/2.41b1df11.chunk.js": "/Margarita555/react-test-todo-2.git/static/js/2.41b1df11.chunk.js",
+    "static/js/2.41b1df11.chunk.js.map": "/Margarita555/react-test-todo-2.git/static/js/2.41b1df11.chunk.js.map",
+    "static/js/3.f959f393.chunk.js": "/Margarita555/react-test-todo-2.git/static/js/3.f959f393.chunk.js",
+    "static/js/3.f959f393.chunk.js.map": "/Margarita555/react-test-todo-2.git/static/js/3.f959f393.chunk.js.map",
+    "index.html": "/Margarita555/react-test-todo-2.git/index.html",
+    "static/css/main.ca65553a.chunk.css.map": "/Margarita555/react-test-todo-2.git/static/css/main.ca65553a.chunk.css.map",
+    "static/js/2.41b1df11.chunk.js.LICENSE.txt": "/Margarita555/react-test-todo-2.git/static/js/2.41b1df11.chunk.js.LICENSE.txt",
+    "static/media/add.e6004eac.svg": "/Margarita555/react-test-todo-2.git/static/media/add.e6004eac.svg",
+    "static/media/close.b3bfafce.svg": "/Margarita555/react-test-todo-2.git/static/media/close.b3bfafce.svg",
+    "static/media/cross.d1aeab96.svg": "/Margarita555/react-test-todo-2.git/static/media/cross.d1aeab96.svg",
+    "static/media/edit.83c2f913.svg": "/Margarita555/react-test-todo-2.git/static/media/edit.83c2f913.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3958c069.js",
+    "static/js/2.41b1df11.chunk.js",
+    "static/css/main.ca65553a.chunk.css",
+    "static/js/main.dbfb4e87.chunk.js"
+  ]
+}
