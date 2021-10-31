@@ -18,6 +18,7 @@ function App() {
   let location = useLocation();
   // console.log(lists)
   // console.log(colors)
+   console.log(location)
   
   useEffect(() => {
     axios.get(`${JSON_API}/lists?_expand=color&_embed=tasks`).then(({ data }) => {
