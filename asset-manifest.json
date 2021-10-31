@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Margarita555/react-test-todo-2.git/static/css/main.ca65553a.chunk.css",
-    "main.js": "/Margarita555/react-test-todo-2.git/static/js/main.f086a0ef.chunk.js",
-    "main.js.map": "/Margarita555/react-test-todo-2.git/static/js/main.f086a0ef.chunk.js.map",
-    "runtime-main.js": "/Margarita555/react-test-todo-2.git/static/js/runtime-main.3958c069.js",
-    "runtime-main.js.map": "/Margarita555/react-test-todo-2.git/static/js/runtime-main.3958c069.js.map",
-    "static/js/2.41b1df11.chunk.js": "/Margarita555/react-test-todo-2.git/static/js/2.41b1df11.chunk.js",
-    "static/js/2.41b1df11.chunk.js.map": "/Margarita555/react-test-todo-2.git/static/js/2.41b1df11.chunk.js.map",
-    "static/js/3.f959f393.chunk.js": "/Margarita555/react-test-todo-2.git/static/js/3.f959f393.chunk.js",
-    "static/js/3.f959f393.chunk.js.map": "/Margarita555/react-test-todo-2.git/static/js/3.f959f393.chunk.js.map",
-    "index.html": "/Margarita555/react-test-todo-2.git/index.html",
-    "static/css/main.ca65553a.chunk.css.map": "/Margarita555/react-test-todo-2.git/static/css/main.ca65553a.chunk.css.map",
-    "static/js/2.41b1df11.chunk.js.LICENSE.txt": "/Margarita555/react-test-todo-2.git/static/js/2.41b1df11.chunk.js.LICENSE.txt",
-    "static/media/add.e6004eac.svg": "/Margarita555/react-test-todo-2.git/static/media/add.e6004eac.svg",
-    "static/media/close.b3bfafce.svg": "/Margarita555/react-test-todo-2.git/static/media/close.b3bfafce.svg",
-    "static/media/cross.d1aeab96.svg": "/Margarita555/react-test-todo-2.git/static/media/cross.d1aeab96.svg",
-    "static/media/edit.83c2f913.svg": "/Margarita555/react-test-todo-2.git/static/media/edit.83c2f913.svg"
+    "main.css": "/react-test-todo-2/static/css/main.ca65553a.chunk.css",
+    "main.js": "/react-test-todo-2/static/js/main.ade1db1b.chunk.js",
+    "main.js.map": "/react-test-todo-2/static/js/main.ade1db1b.chunk.js.map",
+    "runtime-main.js": "/react-test-todo-2/static/js/runtime-main.ef7663d2.js",
+    "runtime-main.js.map": "/react-test-todo-2/static/js/runtime-main.ef7663d2.js.map",
+    "static/js/2.41b1df11.chunk.js": "/react-test-todo-2/static/js/2.41b1df11.chunk.js",
+    "static/js/2.41b1df11.chunk.js.map": "/react-test-todo-2/static/js/2.41b1df11.chunk.js.map",
+    "static/js/3.f959f393.chunk.js": "/react-test-todo-2/static/js/3.f959f393.chunk.js",
+    "static/js/3.f959f393.chunk.js.map": "/react-test-todo-2/static/js/3.f959f393.chunk.js.map",
+    "index.html": "/react-test-todo-2/index.html",
+    "static/css/main.ca65553a.chunk.css.map": "/react-test-todo-2/static/css/main.ca65553a.chunk.css.map",
+    "static/js/2.41b1df11.chunk.js.LICENSE.txt": "/react-test-todo-2/static/js/2.41b1df11.chunk.js.LICENSE.txt",
+    "static/media/add.e6004eac.svg": "/react-test-todo-2/static/media/add.e6004eac.svg",
+    "static/media/close.b3bfafce.svg": "/react-test-todo-2/static/media/close.b3bfafce.svg",
+    "static/media/cross.d1aeab96.svg": "/react-test-todo-2/static/media/cross.d1aeab96.svg",
+    "static/media/edit.83c2f913.svg": "/react-test-todo-2/static/media/edit.83c2f913.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3958c069.js",
+    "static/js/runtime-main.ef7663d2.js",
     "static/js/2.41b1df11.chunk.js",
     "static/css/main.ca65553a.chunk.css",
-    "static/js/main.f086a0ef.chunk.js"
+    "static/js/main.ade1db1b.chunk.js"
   ]
 }
