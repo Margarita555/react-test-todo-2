@@ -4,6 +4,7 @@ import List from "../List/List";
 import './AddList.scss'
 import closeSvg from '../../assets/img/close.svg'
 import axios from "axios";
+import {JSON_API} from '../../helpers/Constants'
 
 
 const AddList = ({colors, onAdd}) => {
@@ -34,7 +35,7 @@ const AddList = ({colors, onAdd}) => {
         }
         // const color = colors.find(c => c.id === selectedColor).name;
         
-        axios.delete('http://localhost:3004/lists',
+        axios.delete(`${JSON_API}/lists`,
             { name: "ss",
     colorId: "blue",
     id: 7 })
@@ -43,7 +44,7 @@ const AddList = ({colors, onAdd}) => {
             })
 
         setIsLoading(true);
-        axios.post('http://localhost:3004/lists',
+        axios.post(`${JSON_API}/lists`,
             { name: inputValue, colorId: selectedColor })
             .then(({ data }) => {
                 const color = colors.find(c => c.id === selectedColor);

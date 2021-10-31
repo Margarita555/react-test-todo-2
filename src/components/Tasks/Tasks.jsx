@@ -5,6 +5,7 @@ import axios from 'axios';
 import AddTaskForm from './AddTaskForm';
 import Task from './Task';
 import { Link } from 'react-router-dom';
+import {JSON_API} from '../../helpers/Constants'
 
 export default function Tasks({ list, onEditTitle, onAddTask, onRemoveTask, onEditTask, onTaskComplete }) {
     // console.log(list.tasks)
@@ -13,7 +14,7 @@ export default function Tasks({ list, onEditTitle, onAddTask, onRemoveTask, onEd
         const newTitle = window.prompt('Название списка', list.name)
         if (newTitle) {
             onEditTitle(list.id, newTitle);
-            axios.patch('http://localhost:3004/lists/' + list.id, {
+            axios.patch(`${JSON_API}/lists/` + list.id, {
                 name: newTitle
             }).catch(() => {alert('Не удалось обновить название списка')})
         }

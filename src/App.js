@@ -5,7 +5,8 @@ import List from "./components/List/List";
 // import DB from './assets/db.json';
 import Tasks from "./components/Tasks/Tasks";
 import axios from 'axios';
-import {Route, useHistory, useLocation} from 'react-router-dom'
+import { Route, useHistory, useLocation } from 'react-router-dom';
+import {JSON_API} from '../src/helpers/Constants'
 
 
 function App() {
@@ -19,11 +20,11 @@ function App() {
   // console.log(colors)
   
   useEffect(() => {
-    axios.get('http://localhost:3004/lists?_expand=color&_embed=tasks').then(({ data }) => {
+    axios.get(`${JSON_API}/lists?_expand=color&_embed=tasks`).then(({ data }) => {
     
       setLists(data)
     });
-    axios.get('http://localhost:3004/colors').then(({ data }) => {
+    axios.get(`${JSON_API}/colors`).then(({ data }) => {
      
       setColors(data)
     });
@@ -95,7 +96,7 @@ function App() {
     console.log(newTaskText)
     // if(!objTask.id){}
     
-    axios.patch('http://localhost:3004/tasks/' + objTask.id, { text: newTaskText })
+    axios.patch(`${JSON_API}/tasks/` + objTask.id, { text: newTaskText })
       .catch(() => {
         alert('Error. The task was not saved. Try again')
       })
@@ -112,7 +113,7 @@ function App() {
       })
       setLists(newLists);
 
-      axios.delete('http://localhost:3004/tasks/' + taskId).catch(() => {
+      axios.delete(`${JSON_API}/tasks/` + taskId).catch(() => {
         alert('Error. The task was not deleted')
       }) 
     }
@@ -134,7 +135,7 @@ function App() {
     })
     setLists(newLists);
     
-    axios.patch('http://localhost:3004/tasks/' + taskId, { completed })
+    axios.patch(`${JSON_API}/tasks/` + taskId, { completed })
       .catch(() => {
         alert('Error. The state of the checked task was not saved. Try again')
       })

@@ -3,12 +3,13 @@ import './List.scss'
 import classNames from 'classnames';
 import Badge from '../Badge/Badge';
 import axios from 'axios';
+import {JSON_API} from '../../helpers/Constants'
 
 function List({ items, isRemovable, onClick, onRemove, activeItem, onClickItem }) {
   // console.log(items)
   const removeList = (item) => {
     // if(window.confirm('Do you really want to remove the list?'))
-    axios.delete('http://localhost:3004/lists/' + item.id).then(() => {onRemove(item.id)})   
+    axios.delete(`${JSON_API}/lists/` + item.id).then(() => {onRemove(item.id)})   
   }
 
 

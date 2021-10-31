@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Tasks.scss';
 import addSvg from '../../assets/img/add.svg'
 import axios from 'axios';
+import {JSON_API} from '../../helpers/Constants'
 
 export default function AddTaskForm({list, onAddTask}) {
     const [visibleForm, setVisibleForm] = useState(false);
@@ -22,7 +23,7 @@ export default function AddTaskForm({list, onAddTask}) {
            
         }
         setIsLoading(true)
-        axios.post('http://localhost:3004/tasks', obj).then((data) => {
+        axios.post(`${JSON_API}/tasks`, obj).then((data) => {
             console.log(data)
             onAddTask(list.id, data.data)
             toggleVisibleForm()
