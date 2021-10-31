@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Margarita555/react-test-todo-2.git/static/css/main.ca65553a.chunk.css",
-    "main.js": "/Margarita555/react-test-todo-2.git/static/js/main.dbfb4e87.chunk.js",
-    "main.js.map": "/Margarita555/react-test-todo-2.git/static/js/main.dbfb4e87.chunk.js.map",
+    "main.js": "/Margarita555/react-test-todo-2.git/static/js/main.f086a0ef.chunk.js",
+    "main.js.map": "/Margarita555/react-test-todo-2.git/static/js/main.f086a0ef.chunk.js.map",
     "runtime-main.js": "/Margarita555/react-test-todo-2.git/static/js/runtime-main.3958c069.js",
     "runtime-main.js.map": "/Margarita555/react-test-todo-2.git/static/js/runtime-main.3958c069.js.map",
     "static/js/2.41b1df11.chunk.js": "/Margarita555/react-test-todo-2.git/static/js/2.41b1df11.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.3958c069.js",
     "static/js/2.41b1df11.chunk.js",
     "static/css/main.ca65553a.chunk.css",
-    "static/js/main.dbfb4e87.chunk.js"
+    "static/js/main.f086a0ef.chunk.js"
   ]
 }
